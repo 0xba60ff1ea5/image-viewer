@@ -10,10 +10,10 @@ echo "Finding a random image in your preferred directory for you to view....."
 # Adjust this to your liking
 export IMAGES=/usr/my_garbage/images
 
-# Pick a random image in the dierectory
+# Pick a random image in the directory
 myfile=$(ls $IMAGES | shuf -n 1)
 
-# Display the images
+# Display the image
 eog $IMAGES/$myfile
 
 
