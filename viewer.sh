@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Very simple BASH script
+# Very simple shell script
 # Finds a random image in a directory and displays it for you
 
 echo "Running viewer.sh....."
